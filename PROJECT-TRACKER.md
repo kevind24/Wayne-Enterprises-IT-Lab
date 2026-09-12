@@ -24,17 +24,20 @@
 
 ## Phase 1 — Microsoft Entra ID
 
-* [ ] Create Bruce Wayne account
-* [ ] Create Dick Grayson account
-* [ ] Create Alfred Pennyworth account
-* [ ] Create Barbara Gordon account
-* [ ] Create James Gordon account
-* [ ] Create security groups
-* [ ] Configure Bruce's administrative access
-* [ ] Configure standard-user access
-* [ ] Configure James Gordon's limited access
-* [ ] Assign Microsoft 365 licenses
+* [x] Create Bruce Wayne account
+* [x] Create Dick Grayson account
+* [x] Create Alfred Pennyworth account
+* [x] Create Barbara Gordon account
+* [x] Create James Gordon account
+* [x] Create security groups
+* [x] Configure Bruce's least-privilege daily-use access
+* [x] Configure standard-user access model
+* [x] Configure James Gordon's limited external access
+* [x] Verify user account status
+* [x] Verify group memberships
+* [x] Verify tenant default domain
 * [ ] Verify user sign-in
+* [ ] Document Entra ID configuration
 
 ---
 
