@@ -14,8 +14,8 @@
 * [x] Create initial project documentation
 * [x] Create architecture diagram
 * [x] Create project tracker
-* [ ] Establish Azure account
-* [ ] Configure Azure cost management
+* [x] Establish Azure account
+* [x] Configure Azure cost management
 * [ ] Establish Microsoft 365 tenant
 * [ ] Verify Microsoft Entra ID
 * [ ] Evaluate Microsoft 365 Developer Program eligibility
