@@ -144,7 +144,7 @@ The initial Windows Server will combine several roles to keep the lab cost-effec
 
 The lab uses a hybrid architecture consisting of Azure infrastructure, Microsoft 365 cloud services, and a local workstation deployment environment.
 
-![Wayne Enterprises IT Lab Architecture](architecture/architecture-diagram.png)
+![Wayne Enterprises IT Lab Architecture](architecture/Architecture%20Diagram%20V2.png)
 
 The architecture diagrams will be expanded and updated as the environment is built.
 
