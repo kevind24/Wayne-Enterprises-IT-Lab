@@ -131,47 +131,8 @@ The initial Windows Server will combine several roles to keep the lab cost-effec
 
 The lab will eventually include:
 
-```text
-                         INTERNET
-                            |
-              +-------------+-------------+
-              |                           |
-        Microsoft 365                    VPN
-              |                           |
-      +-------+-------+                   |
-      |       |       |                   |
-    Entra  Exchange  Intune                |
-      |       |       |                   |
-      +-------+-------+                   |
-              |                           |
-              +-------------+-------------+
-                            |
-                     +------v------+
-                     |   BATCAVE   |
-                     |  Azure VNet |
-                     +------+------+
-                            |
-                     +------v------+
-                     |  BAT-DC01   |
-                     | AD / DNS    |
-                     | File Server |
-                     +------+------+
-                            |
-              +-------------+-------------+
-              |             |             |
-              v             v             v
-           Bruce          Dick        Barbara
-          Windows        Windows       Windows
-                            |
-                          Alfred
-                          Windows
-
-                    James Gordon
-                    External PC
-                         |
-                        VPN
-                         |
-                      BATCAVE
+```
+![Wayne Enterprises IT Lab Architecture](architecture/architecture-diagram.png)
 ```
 
 The architecture diagrams will be expanded and updated as the environment is built.
