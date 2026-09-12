@@ -4,7 +4,7 @@
 
 **Overall Status:** 🟡 In Progress
 
-**Current Phase:** Phase 0 — Project Foundation
+**Current Phase:** Phase 1 — Microsoft Entra ID
 
 ---
 
@@ -16,9 +16,9 @@
 * [x] Create project tracker
 * [x] Establish Azure account
 * [x] Configure Azure cost management
-* [ ] Establish Microsoft 365 tenant
-* [ ] Verify Microsoft Entra ID
-* [ ] Evaluate Microsoft 365 Developer Program eligibility
+* [x] Establish Microsoft 365 tenant
+* [x] Verify Microsoft Entra ID
+* [x] Evaluate Microsoft 365 Developer Program eligibility
 
 ---
 
