@@ -50,18 +50,19 @@
 
 ---
 
-## Phase 3 — Azure Infrastructure
+## Phase 3 — Core Infrastructure
 
-* [ ] Create Wayne Enterprises resource group
-* [ ] Create Batcave VNet
-* [ ] Create server subnet
-* [ ] Deploy BAT-DC01
+* [ ] Create/verify Wayne Enterprises resource group
+* [ ] Create/verify Batcave VNet
+* [ ] Create/verify server subnet
+* [ ] Configure Hyper-V host environment
+* [ ] Deploy BAT-DC01 as a local Hyper-V VM
 * [ ] Configure Windows Server
 * [ ] Install Active Directory Domain Services
 * [ ] Configure DNS
 * [ ] Create WAYNEENTERPRISES.LOCAL domain
-* [ ] Establish connectivity between local workstation lab and Azure
-* [ ] Validate Azure network connectivity
+* [ ] Establish Lab Connectivity between local workstation lab and Azure
+* [ ] Validate hybrid network connectivity
 
 ---
 
@@ -95,7 +96,7 @@
 
 ### Workstation Deployment Environment
 
-* [ ] Install/configure VirtualBox
+* [ ] Install/configure Hyper-V
 * [ ] Create Windows 11 workstation VMs
 * [ ] Perform clean Windows 11 installations
 * [ ] Configure workstation networking
