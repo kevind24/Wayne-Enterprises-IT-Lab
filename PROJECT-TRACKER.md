@@ -55,13 +55,13 @@
 * [ ] Create Wayne Enterprises resource group
 * [ ] Create Batcave VNet
 * [ ] Create server subnet
-* [ ] Create workstation subnet
 * [ ] Deploy BAT-DC01
 * [ ] Configure Windows Server
 * [ ] Install Active Directory Domain Services
 * [ ] Configure DNS
 * [ ] Create WAYNEENTERPRISES.LOCAL domain
 * [ ] Establish connectivity between local workstation lab and Azure
+* [ ] Validate Azure network connectivity
 
 ---
 
@@ -97,9 +97,11 @@
 
 * [ ] Install/configure VirtualBox
 * [ ] Create Windows 11 workstation VMs
-* [ ] Perform clean Windows 11 installation
+* [ ] Perform clean Windows 11 installations
 * [ ] Configure workstation networking
 * [ ] Establish connectivity to Azure/Active Directory
+* [ ] Join workstations to WAYNEENTERPRISES.LOCAL
+* [ ] Configure baseline workstation settings
 * [ ] Document workstation deployment process
 
 ### Bruce Wayne
