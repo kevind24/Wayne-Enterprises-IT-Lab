@@ -1,0 +1,194 @@
+# Wayne Enterprises IT Lab — Project Tracker
+
+## Project Status
+
+**Overall Status:** 🟡 In Progress
+
+**Current Phase:** Phase 0 — Project Foundation
+
+---
+
+## Phase 0 — Project Foundation
+
+* [x] Create GitHub repository
+* [ ] Create initial project documentation
+* [ ] Create architecture diagram
+* [ ] Create project tracker
+* [ ] Establish Azure account
+* [ ] Configure Azure cost management
+* [ ] Establish Microsoft 365 tenant
+* [ ] Verify Microsoft Entra ID
+* [ ] Evaluate Microsoft 365 Developer Program eligibility
+
+---
+
+## Phase 1 — Microsoft Entra ID
+
+* [ ] Create Bruce Wayne account
+* [ ] Create Dick Grayson account
+* [ ] Create Alfred Pennyworth account
+* [ ] Create Barbara Gordon account
+* [ ] Create James Gordon account
+* [ ] Create security groups
+* [ ] Configure Bruce's administrative access
+* [ ] Configure standard-user access
+* [ ] Configure James Gordon's limited access
+* [ ] Assign Microsoft 365 licenses
+* [ ] Verify user sign-in
+
+---
+
+## Phase 2 — Exchange Online
+
+* [ ] Verify Exchange Online availability
+* [ ] Verify Bruce Wayne mailbox
+* [ ] Verify Dick Grayson mailbox
+* [ ] Verify Alfred Pennyworth mailbox
+* [ ] Verify Barbara Gordon mailbox
+* [ ] Configure/test James Gordon mailbox if required
+* [ ] Test Outlook/Microsoft 365 authentication
+
+---
+
+## Phase 3 — Azure Infrastructure
+
+* [ ] Create Wayne Enterprises resource group
+* [ ] Create Batcave VNet
+* [ ] Create server subnet
+* [ ] Create workstation subnet
+* [ ] Deploy BAT-DC01
+* [ ] Configure Windows Server
+* [ ] Install Active Directory Domain Services
+* [ ] Configure DNS
+* [ ] Create WAYNEENTERPRISES.LOCAL domain
+
+---
+
+## Phase 4 — Active Directory
+
+* [ ] Create OU structure
+* [ ] Create AD users
+* [ ] Create security groups
+* [ ] Configure group memberships
+* [ ] Configure Group Policy
+* [ ] Configure administrative permissions
+* [ ] Configure least-privilege access
+* [ ] Validate authentication
+
+---
+
+## Phase 5 — File Services
+
+* [ ] Create WayneCorp shared folder
+* [ ] Create IT share
+* [ ] Create Security share
+* [ ] Create Executive share
+* [ ] Configure share permissions
+* [ ] Configure NTFS permissions
+* [ ] Test access with each user
+* [ ] Validate James Gordon's restricted access
+
+---
+
+## Phase 6 — Windows Workstations
+
+### Bruce Wayne
+
+* [ ] Deploy BAT-WIN11-BRUCE
+* [ ] Configure Windows
+* [ ] Join/enroll device
+* [ ] Configure Bruce's administrative access
+* [ ] Validate connectivity
+
+### Dick Grayson
+
+* [ ] Deploy BAT-WIN11-DICK
+* [ ] Configure Windows
+* [ ] Join/enroll device
+* [ ] Validate standard-user permissions
+
+### Alfred Pennyworth
+
+* [ ] Deploy BAT-WIN11-ALFRED
+* [ ] Configure Windows
+* [ ] Join/enroll device
+* [ ] Validate standard-user permissions
+
+### Barbara Gordon
+
+* [ ] Deploy BAT-WIN11-BARBARA
+* [ ] Configure Windows
+* [ ] Join/enroll device
+* [ ] Validate standard-user permissions
+
+---
+
+## Phase 7 — Microsoft Intune
+
+* [ ] Configure Intune
+* [ ] Configure Windows enrollment
+* [ ] Enroll first test device
+* [ ] Create device groups
+* [ ] Create configuration profiles
+* [ ] Configure Windows security baseline
+* [ ] Configure Windows Update policy
+* [ ] Configure Microsoft Defender policies
+* [ ] Deploy applications
+* [ ] Configure compliance policies
+* [ ] Test policy application
+* [ ] Troubleshoot policy/application failures
+
+---
+
+## Phase 8 — Security
+
+* [ ] Configure MFA
+* [ ] Configure least-privilege access
+* [ ] Configure Windows Firewall
+* [ ] Configure Microsoft Defender
+* [ ] Configure BitLocker where supported
+* [ ] Validate Secure Boot/TPM considerations
+* [ ] Configure Conditional Access
+* [ ] Document security decisions
+
+---
+
+## Phase 9 — VPN / Remote Access
+
+* [ ] Design James Gordon remote-access scenario
+* [ ] Select VPN solution
+* [ ] Configure VPN
+* [ ] Test external connectivity
+* [ ] Test internal DNS
+* [ ] Test file-share access
+* [ ] Validate restricted permissions
+* [ ] Document troubleshooting process
+
+---
+
+## Phase 10 — Troubleshooting
+
+* [ ] Create DNS failure scenario
+* [ ] Create domain authentication failure
+* [ ] Create file-share permission failure
+* [ ] Create Intune enrollment failure
+* [ ] Create application deployment failure
+* [ ] Create Windows Update issue
+* [ ] Create VPN connectivity failure
+* [ ] Document troubleshooting methodology
+
+---
+
+## Phase 11 — Portfolio Documentation
+
+* [ ] Final architecture diagram
+* [ ] Final network diagram
+* [ ] Identity flow diagram
+* [ ] Add screenshots
+* [ ] Document major configurations
+* [ ] Document troubleshooting scenarios
+* [ ] Document lessons learned
+* [ ] Add PowerShell scripts
+* [ ] Update README
+* [ ] Review repository for sensitive information
+* [ ] Final project review
