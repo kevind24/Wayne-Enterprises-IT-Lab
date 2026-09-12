@@ -33,3 +33,13 @@ WAYNEENTERPRISES.LOCAL
 | `GG-Wayne-Security` | Security users |
 | `GG-Wayne-Employees` | General employees |
 | `GG-Wayne-External` | External and remote users |
+
+## User-to-Group Membership
+
+| User | Security Group |
+|---|---|
+| Bruce Wayne | `GG-Wayne-Executives` |
+| Dick Grayson | `GG-Wayne-Employees` |
+| Alfred Pennyworth | `GG-Wayne-Employees` |
+| Barbara Gordon | `GG-Wayne-Security` |
+| James Gordon | `GG-Wayne-External` |
