@@ -11,9 +11,9 @@
 ## Phase 0 — Project Foundation
 
 * [x] Create GitHub repository
-* [ ] Create initial project documentation
-* [ ] Create architecture diagram
-* [ ] Create project tracker
+* [x] Create initial project documentation
+* [x] Create architecture diagram
+* [x] Create project tracker
 * [ ] Establish Azure account
 * [ ] Configure Azure cost management
 * [ ] Establish Microsoft 365 tenant
