@@ -43,3 +43,13 @@ WAYNEENTERPRISES.LOCAL
 | Alfred Pennyworth | `GG-Wayne-Employees` |
 | Barbara Gordon | `GG-Wayne-Security` |
 | James Gordon | `GG-Wayne-External` |
+
+## Resource Access Model
+
+| Group | WayneCorp | IT | Security | Executive |
+|---|---:|---:|---:|---:|
+| `GG-Wayne-Executives` | Read/Write | No Access | No Access | Read/Write |
+| `GG-Wayne-IT` | Read/Write | Read/Write | No Access | No Access |
+| `GG-Wayne-Security` | Read/Write | No Access | Read/Write | No Access |
+| `GG-Wayne-Employees` | Read/Write | No Access | No Access | No Access |
+| `GG-Wayne-External` | Limited | No Access | No Access | No Access |
