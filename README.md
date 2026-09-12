@@ -131,8 +131,9 @@ The initial Windows Server will combine several roles to keep the lab cost-effec
 
 The lab will eventually include:
 
-```
 ![Wayne Enterprises IT Lab Architecture](architecture/architecture-diagram.png)
+```
+
 ```
 
 The architecture diagrams will be expanded and updated as the environment is built.
