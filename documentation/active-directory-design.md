@@ -53,3 +53,18 @@ WAYNEENTERPRISES.LOCAL
 | `GG-Wayne-Security` | Read/Write | No Access | Read/Write | No Access |
 | `GG-Wayne-Employees` | Read/Write | No Access | No Access | No Access |
 | `GG-Wayne-External` | Limited | No Access | No Access | No Access |
+
+## Administrative Account Design
+
+Bruce Wayne will use separate accounts for standard and administrative activities.
+
+| Account | Purpose | Privilege |
+|---|---|---|
+| `bruce.wayne` | Daily workstation use | Standard User |
+| `bruce.admin` | Administrative tasks | Privileged Administrator |
+
+### Design Principle
+
+Administrative tasks should be performed using a dedicated privileged account rather than the user's everyday account.
+
+This provides a practical example of least privilege and privileged account separation.
