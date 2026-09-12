@@ -23,3 +23,13 @@ WAYNEENTERPRISES.LOCAL
 ├── Groups
 │
 └── Service Accounts
+
+## Security Groups
+
+| Group | Purpose |
+|---|---|
+| `GG-Wayne-Executives` | Executive users |
+| `GG-Wayne-IT` | IT and support users |
+| `GG-Wayne-Security` | Security users |
+| `GG-Wayne-Employees` | General employees |
+| `GG-Wayne-External` | External and remote users |
