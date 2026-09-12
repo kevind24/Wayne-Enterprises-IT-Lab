@@ -53,7 +53,6 @@ The environment follows a least-privilege approach. Administrative access is int
 * Azure Resource Group
 * Azure Virtual Network
 * Windows Server
-* Windows 11 Workstations
 * Network security configuration
 * Cost-control measures
 
@@ -105,7 +104,21 @@ The environment follows a least-privilege approach. Administrative access is int
 | Alfred Pennyworth | `BAT-WIN11-ALFRED`  |
 | Barbara Gordon    | `BAT-WIN11-BARBARA` |
 
+The Windows 11 workstations will be deployed as local VirtualBox virtual machines. This approach allows the lab to simulate realistic workstation provisioning, clean Windows installations, domain joining, configuration, troubleshooting, and device lifecycle management without requiring four continuously running Azure virtual machines.
+
 James Gordon will initially use an external workstation rather than a dedicated Azure virtual machine. His environment will be used to demonstrate remote access, VPN connectivity, authentication, and least-privilege access.
+
+---
+
+## Hybrid Workstation Environment
+
+The lab uses a hybrid architecture to simulate enterprise workstation deployment.
+
+Azure hosts the core infrastructure, including the domain controller, Active Directory, DNS, file services, and Group Policy.
+
+Windows 11 workstation deployments are performed using local VirtualBox virtual machines. This allows the lab to simulate clean workstation provisioning, configuration, domain joining, policy application, application deployment, troubleshooting, and device lifecycle management without requiring four continuously running Azure workstation VMs.
+
+Microsoft 365 provides cloud identity and endpoint management capabilities through Microsoft Entra ID, Exchange Online, and Microsoft Intune.
 
 ---
 
@@ -129,12 +142,9 @@ The initial Windows Server will combine several roles to keep the lab cost-effec
 
 ## Architecture
 
-The lab will eventually include:
+The lab uses a hybrid architecture consisting of Azure infrastructure, Microsoft 365 cloud services, and a local workstation deployment environment.
 
 ![Wayne Enterprises IT Lab Architecture](architecture/architecture-diagram.png)
-```
-
-```
 
 The architecture diagrams will be expanded and updated as the environment is built.
 
