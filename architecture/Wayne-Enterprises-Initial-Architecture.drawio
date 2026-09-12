@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_S9KonmBlEU6W-iQaje5">
+    <mxGraphModel dx="1746" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-46" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mE_s-J6lnf2-KR4L_F9Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#498F10;fontColor=#ffffff;strokeColor=default;labelBorderColor=none;" value="INTERNET" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000B1C,#0A53FF);fontColor=#ffffff;strokeColor=#001DBC;labelBorderColor=none;labelBackgroundColor=none;" value="MICROSOFT 365&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="280" x="400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ENTRA ID" vertex="1">
+          <mxGeometry height="30" width="80" x="430" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EXCHANGE&amp;nbsp;&lt;div&gt;ONLINE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="570" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INTUNE" vertex="1">
+          <mxGeometry height="30" width="80" x="500" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-42" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mE_s-J6lnf2-KR4L_F9Y-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0058F0;fontColor=#ffffff;strokeColor=default;labelBorderColor=none;" value="BATCAVE&lt;div&gt;AZURE VIRTUAL NETWORK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="410" width="633.75" x="236.25" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-24" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.588;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" target="mE_s-J6lnf2-KR4L_F9Y-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="620.06" />
+              <mxPoint x="397.06" y="620.06" />
+              <mxPoint x="397.06" y="584.06" />
+            </Array>
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-26" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mE_s-J6lnf2-KR4L_F9Y-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="620.06" />
+              <mxPoint x="705.06" y="620.06" />
+              <mxPoint x="705.06" y="580.06" />
+            </Array>
+            <mxPoint x="680" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;BAT-DC01&lt;/div&gt;&lt;div&gt;WAYNEENTERPRISES.LOCAL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Active Directory&lt;/div&gt;&lt;div&gt;DNS&lt;/div&gt;&lt;div&gt;File Services&lt;/div&gt;&lt;div&gt;Group Policy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="195" width="195" x="455" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;BAT-WIN11-BRUCE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bruce Wayne&lt;/div&gt;&lt;div&gt;Administrator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="335" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-11" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;BAT-WIN11-DICK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dick Grayson&lt;/div&gt;&lt;div&gt;Standard User&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="440" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;BAT-WIN11-ALFRED&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Alfred Pennyworth&lt;/div&gt;&lt;div&gt;Standard User&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="551" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;BAT-WIN11-BARBARA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Barbara Gordon&lt;/div&gt;&lt;div&gt;Standard User&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="661" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-40" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#787800;fontColor=#ffffff;strokeColor=default;labelBorderColor=none;" value="&lt;div&gt;JAMES GORDON&lt;/div&gt;&lt;div&gt;External PC&lt;/div&gt;&lt;div&gt;Limited Access&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="502.5" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-43" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mE_s-J6lnf2-KR4L_F9Y-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC0000;fontColor=#ffffff;strokeColor=default;fillStyle=auto;labelBorderColor=none;" value="VPN" vertex="1">
+          <mxGeometry height="30" width="80" x="512.5" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-47" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" target="mE_s-J6lnf2-KR4L_F9Y-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
