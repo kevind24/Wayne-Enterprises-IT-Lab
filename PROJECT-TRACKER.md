@@ -61,6 +61,7 @@
 * [ ] Install Active Directory Domain Services
 * [ ] Configure DNS
 * [ ] Create WAYNEENTERPRISES.LOCAL domain
+* [ ] Establish connectivity between local workstation lab and Azure
 
 ---
 
@@ -91,6 +92,15 @@
 ---
 
 ## Phase 6 — Windows Workstations
+
+### Workstation Deployment Environment
+
+* [ ] Install/configure VirtualBox
+* [ ] Create Windows 11 workstation VMs
+* [ ] Perform clean Windows 11 installation
+* [ ] Configure workstation networking
+* [ ] Establish connectivity to Azure/Active Directory
+* [ ] Document workstation deployment process
 
 ### Bruce Wayne
 
