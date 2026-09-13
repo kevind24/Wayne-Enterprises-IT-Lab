@@ -74,23 +74,16 @@
 
 ---
 
-## Phase 4 — Active Directory
-
-Status: In Progress 🟡
-
-Completed:
+## Phase 4 — Active Directory - COMPLETE
 
 * [x] Create OU structure
 * [x] Create AD users
 * [x] Create security groups
 * [x] Configure group memberships
+* [x] Configure Group Policy
+* [x] Configure administrative permissions
 * [x] Configure least-privilege access
-
-Remaining:
-
-* [ ] Configure Group Policy
-* [ ] Configure administrative permissions
-* [ ] Validate authentication
+* [x] Validate authentication
 
 ### Current Active Directory Structure
 
@@ -99,6 +92,13 @@ BATCAVE.LOCAL
 
 Organizational Units:
 
+- Wayne Enterprises
+  - Admin Accounts
+  - Groups
+  - Servers
+  - Users
+  - Workstations
+    
 User access follows a least-privilege model:
 
 | User | Role | Access |
