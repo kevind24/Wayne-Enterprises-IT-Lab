@@ -41,7 +41,7 @@
 
 ---
 
-## Phase 2 — Microsoft 365 / Exchange Online
+## Phase 2 — Microsoft 365 / Exchange Online - COMPLETE
 
 * [x] Activate Microsoft 365 Business Premium trial
 * [x] Verify Microsoft Entra ID availability
