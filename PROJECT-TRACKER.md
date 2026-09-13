@@ -36,7 +36,7 @@
 * [x] Verify user account status
 * [x] Verify group memberships
 * [x] Verify tenant default domain
-* [ ] Verify user sign-in
+* [x] Verify user sign-in
 * [ ] Document Entra ID configuration
 
 ---
