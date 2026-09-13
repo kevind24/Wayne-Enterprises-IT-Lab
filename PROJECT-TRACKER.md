@@ -8,7 +8,7 @@
 
 ---
 
-## Phase 0 — Project Foundation
+## Phase 0 — Project Foundation - COMPLETE
 
 * [x] Create GitHub repository
 * [x] Create initial project documentation
@@ -22,7 +22,7 @@
 
 ---
 
-## Phase 1 — Microsoft Entra ID
+## Phase 1 — Microsoft Entra ID - COMPLETE
 
 * [x] Create Bruce Wayne account
 * [x] Create Dick Grayson account
@@ -37,7 +37,7 @@
 * [x] Verify group memberships
 * [x] Verify tenant default domain
 * [x] Verify user sign-in
-* [ ] Document Entra ID configuration
+* [x] Document Entra ID configuration
 
 ---
 
