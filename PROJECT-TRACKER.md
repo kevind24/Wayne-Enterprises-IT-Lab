@@ -76,14 +76,38 @@
 
 ## Phase 4 — Active Directory
 
-* [ ] Create OU structure
-* [ ] Create AD users
-* [ ] Create security groups
-* [ ] Configure group memberships
+Status: In Progress 🟡
+
+Completed:
+
+* [x] Create OU structure
+* [x] Create AD users
+* [x] Create security groups
+* [x] Configure group memberships
+* [x] Configure least-privilege access
+
+Remaining:
+
 * [ ] Configure Group Policy
 * [ ] Configure administrative permissions
-* [ ] Configure least-privilege access
 * [ ] Validate authentication
+
+### Current Active Directory Structure
+
+Domain:
+BATCAVE.LOCAL
+
+Organizational Units:
+
+User access follows a least-privilege model:
+
+| User | Role | Access |
+| --- | --- | --- |
+| Bruce Wayne | Administrator | IT and Server Administration |
+| Dick Grayson | Employee | Standard User |
+| Alfred Pennyworth | Executive Support | Standard User |
+| Barbara Gordon | Technical User | IT Administration |
+| James Gordon | External User | Remote User Access |
 
 ---
 
