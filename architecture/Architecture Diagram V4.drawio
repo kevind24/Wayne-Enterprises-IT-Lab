@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_S9KonmBlEU6W-iQaje5">
+    <mxGraphModel dx="1746" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-13" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#498F10;fontColor=#ffffff;strokeColor=default;labelBorderColor=none;" value="INTERNET" vertex="1">
+          <mxGeometry height="60" width="232.5" x="522.5" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000B1C,#0A53FF);fontColor=#ffffff;strokeColor=#001DBC;labelBorderColor=none;labelBackgroundColor=none;" value="MICROSOFT 365&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="280" x="399" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ENTRA ID" vertex="1">
+          <mxGeometry height="30" width="80" x="498" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EXCHANGE&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ONLINE&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="458" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INTUNE" vertex="1">
+          <mxGeometry height="30" width="80" x="498" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-16" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ej7jPf5Q7lnJIpDb_vmM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0058F0;fontColor=#ffffff;strokeColor=default;labelBorderColor=none;" value="BATCAVE&lt;div&gt;AZURE VIRTUAL NETWORK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="360" x="360" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;BAT-DC01&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;BATCAVE.LOCAL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Active Directory&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;DNS&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;File Services&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Group Policy&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="431" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="i1l0CwjXhG6ATb0Dv4HQ-14" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="798" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-40" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#787800,#FF3333);fontColor=#ffffff;strokeColor=default;labelBorderColor=none;" value="&lt;div&gt;EXTERNAL USER&lt;/div&gt;&lt;div&gt;JAMES GORDON&lt;/div&gt;&lt;div&gt;External PC&lt;/div&gt;&lt;div&gt;Limited Access&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="748" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="i1l0CwjXhG6ATb0Dv4HQ-15" edge="1" parent="1" source="Ej7jPf5Q7lnJIpDb_vmM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="mE_s-J6lnf2-KR4L_F9Y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;div&gt;REMOTE ACCESS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="719" y="-42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Local Workstation LAB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;HYPER-V&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="360" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BAT-WIN11-BRUCE" vertex="1">
+          <mxGeometry height="60" width="120" x="396" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BAT-WIN11-DICK" vertex="1">
+          <mxGeometry height="60" width="120" x="548" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BAT-WIN11-ALFRED" vertex="1">
+          <mxGeometry height="60" width="120" x="396" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BAT-WIN11-BARBARA" vertex="1">
+          <mxGeometry height="60" width="120" x="548" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF9933);" value="Azure Cloud Environment&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="210" x="869" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="Ej7jPf5Q7lnJIpDb_vmM-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Azure Subscription 2&lt;div&gt;RG-Wayne-Enterprises&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="153" x="894" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="i1l0CwjXhG6ATb0Dv4HQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VNET-Batcave&lt;div&gt;10.10.0.0/16&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="153" x="894.5" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="i1l0CwjXhG6ATb0Dv4HQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SN-Server&lt;div&gt;10.10.1.0/24&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="153" x="895.5" y="463" as="geometry" />
+        </mxCell>
+        <mxCell id="i1l0CwjXhG6ATb0Dv4HQ-18" edge="1" parent="1" source="mE_s-J6lnf2-KR4L_F9Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="mE_s-J6lnf2-KR4L_F9Y-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
