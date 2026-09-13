@@ -41,15 +41,20 @@
 
 ---
 
-## Phase 2 — Exchange Online
+## Phase 2 — Microsoft 365 / Exchange Online
 
-* [ ] Verify Exchange Online availability
-* [ ] Verify Bruce Wayne mailbox
-* [ ] Verify Dick Grayson mailbox
-* [ ] Verify Alfred Pennyworth mailbox
-* [ ] Verify Barbara Gordon mailbox
-* [ ] Configure/test James Gordon mailbox if required
-* [ ] Test Outlook/Microsoft 365 authentication
+* [x] Activate Microsoft 365 Business Premium trial
+* [x] Verify Microsoft Entra ID availability
+* [x] Create Wayne Enterprises user accounts
+* [x] Create Wayne Enterprises security groups
+* [x] Configure user group memberships
+* [x] Assign Microsoft 365 Business Premium licenses
+* [x] Verify Exchange Online mailboxes
+* [x] Validate Outlook access for all five users
+* [x] Test internal mail flow — Bruce → Dick
+* [x] Test internal mail flow — Dick → Bruce
+* [x] Verify Microsoft 365 service health
+* [ ] Document Microsoft 365 / Exchange Online configuration
 
 ---
 
