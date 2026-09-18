@@ -111,16 +111,35 @@ User access follows a least-privilege model:
 
 ---
 
-## Phase 5 — File Services
+### Phase 5 — File Shares & Permissions ✅ COMPLETE
 
-* [ ] Create WayneCorp shared folder
-* [ ] Create IT share
-* [ ] Create Security share
-* [ ] Create Executive share
-* [ ] Configure share permissions
-* [ ] Configure NTFS permissions
-* [ ] Test access with each user
-* [ ] Validate James Gordon's restricted access
+- [x] Create WayneCorp shared folder
+- [x] Create IT share
+- [x] Create Security share
+- [x] Create Executive share
+- [x] Configure share permissions
+- [x] Configure NTFS permissions
+- [x] Remove unintended `Users — Special` permissions from restricted shares
+- [x] Test Dick Grayson access
+- [x] Test Barbara Gordon access
+- [x] Test Alfred Pennyworth access
+- [x] Validate James Gordon restricted access
+- [x] Confirm SMB access using `net use`
+- [x] Verify read/write/delete permissions
+
+#### Validation Results
+
+| User | Share | Result |
+|---|---|---|
+| Dick Grayson | WayneCorp | Modify ✓ |
+| Dick Grayson | IT | Access Denied ✓ |
+| Barbara Gordon | IT | Modify ✓ |
+| Alfred Pennyworth | Executive | Modify ✓ |
+| James Gordon | IT | Access Denied ✓ |
+| James Gordon | Security | Access Denied ✓ |
+| James Gordon | Executive | Access Denied ✓ |
+
+**Status: Phase 5 COMPLETE**
 
 ---
 
