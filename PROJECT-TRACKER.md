@@ -151,8 +151,8 @@ User access follows a least-privilege model:
 * [ ] Create Windows 11 workstation VMs
 * [ ] Perform clean Windows 11 installations
 * [ ] Configure workstation networking
-* [ ] Establish connectivity to Azure/Active Directory
-* [ ] Join workstations to WAYNEENTERPRISES.LOCAL
+* [ ] Establish connectivity to BATCAVE.LOCAL Active Directory
+* [ ] Join workstations to BATCAVE.LOCAL
 * [ ] Configure baseline workstation settings
 * [ ] Document workstation deployment process
 
