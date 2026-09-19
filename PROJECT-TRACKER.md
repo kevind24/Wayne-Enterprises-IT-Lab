@@ -111,7 +111,7 @@ User access follows a least-privilege model:
 
 ---
 
-### Phase 5 — File Shares & Permissions ✅ COMPLETE
+### Phase 5 — File Shares & Permissions - COMPLETE
 
 - [x] Create WayneCorp shared folder
 - [x] Create IT share
@@ -143,48 +143,47 @@ User access follows a least-privilege model:
 
 ---
 
-## Phase 6 — Windows Workstations
+## Phase 6 — Windows Workstations - COMPLETE
 
 ### Workstation Deployment Environment
 
-* [ ] Install/configure Hyper-V
-* [ ] Create Windows 11 workstation VMs
-* [ ] Perform clean Windows 11 installations
-* [ ] Configure workstation networking
-* [ ] Establish connectivity to BATCAVE.LOCAL Active Directory
-* [ ] Join workstations to BATCAVE.LOCAL
-* [ ] Configure baseline workstation settings
+* [x] Install/configure Hyper-V
+* [x] Create Windows 11 workstation VMs
+* [x] Perform clean Windows 11 installation and create reusable generalized template
+* [x] Configure workstation networking
+* [x] Establish connectivity to BATCAVE.LOCAL Active Directory
+* [x] Join workstations to BATCAVE.LOCAL
+* [x] Configure baseline workstation settings
 * [ ] Document workstation deployment process
 
 ### Bruce Wayne
 
-* [ ] Deploy BAT-WIN11-BRUCE
-* [ ] Configure Windows
-* [ ] Join/enroll device
-* [ ] Configure Bruce's administrative access
-* [ ] Validate connectivity
+* [x] Deploy BAT-WIN11-BRUCE
+* [x] Configure Windows
+* [x] Join device to BATCAVE.LOCAL
+* [x] Validate standard-user access
+* [x] Validate connectivity
 
 ### Dick Grayson
 
-* [ ] Deploy BAT-WIN11-DICK
-* [ ] Configure Windows
-* [ ] Join/enroll device
-* [ ] Validate standard-user permissions
+* [x] Deploy BAT-WIN11-DICK
+* [x] Configure Windows
+* [x] Join device to BATCAVE.LOCAL
+* [x] Validate standard-user permissions
 
 ### Alfred Pennyworth
 
-* [ ] Deploy BAT-WIN11-ALFRED
-* [ ] Configure Windows
-* [ ] Join/enroll device
-* [ ] Validate standard-user permissions
+* [x] Deploy BAT-WIN11-AL
+* [x] Configure Windows
+* [x] Join device to BATCAVE.LOCAL
+* [x] Validate standard-user permissions
 
 ### Barbara Gordon
 
-* [ ] Deploy BAT-WIN11-BARBARA
-* [ ] Configure Windows
-* [ ] Join/enroll device
-* [ ] Validate standard-user permissions
-
+* [x] Deploy BAT-WIN11-BARB
+* [x] Configure Windows
+* [x] Join device to BATCAVE.LOCAL
+* [x] Validate domain-user access
 ---
 
 ## Phase 7 — Microsoft Intune
