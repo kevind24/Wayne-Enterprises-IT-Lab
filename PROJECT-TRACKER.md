@@ -217,20 +217,7 @@ User access follows a least-privilege model:
 
 ---
 
-## Phase 9 — VPN / Remote Access
-
-* [ ] Design James Gordon remote-access scenario
-* [ ] Select VPN solution
-* [ ] Configure VPN
-* [ ] Test external connectivity
-* [ ] Test internal DNS
-* [ ] Test file-share access
-* [ ] Validate restricted permissions
-* [ ] Document troubleshooting process
-
----
-
-## Phase 10 — Troubleshooting
+## Phase 9 — Troubleshooting
 
 * [ ] Create DNS failure scenario
 * [ ] Create domain authentication failure
@@ -238,12 +225,11 @@ User access follows a least-privilege model:
 * [ ] Create Intune enrollment failure
 * [ ] Create application deployment failure
 * [ ] Create Windows Update issue
-* [ ] Create VPN connectivity failure
 * [ ] Document troubleshooting methodology
 
 ---
 
-## Phase 11 — Portfolio Documentation
+## Phase 10 — Portfolio Documentation
 
 * [ ] Final architecture diagram
 * [ ] Final network diagram
