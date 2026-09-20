@@ -188,18 +188,26 @@ User access follows a least-privilege model:
 
 ## Phase 7 — Microsoft Intune
 
-* [ ] Configure Intune
-* [ ] Configure Windows enrollment
-* [ ] Enroll first test device
+* [x] Configure Microsoft Intune tenant and MDM authority
+* [x] Configure automatic Windows MDM enrollment
+* [x] Configure Microsoft Entra Connect synchronization
+* [x] Configure Hybrid Microsoft Entra Join
+* [x] Configure Intune automatic enrollment Group Policy
+* [x] Enroll Windows 11 domain workstations
+* [x] Validate Hybrid Entra Join and Primary Refresh Token (PRT)
+* [x] Validate Intune device enrollment and check-in
+* [x] Create Windows compliance policy
+* [x] Configure BitLocker compliance requirement
+* [x] Back up BitLocker recovery keys to Microsoft Entra ID
+* [x] Test compliance policy application
+* [x] Validate workstation compliance in Microsoft Intune
+* [x] Troubleshoot Hybrid Join, MDM enrollment, and compliance failures
 * [ ] Create device groups
 * [ ] Create configuration profiles
 * [ ] Configure Windows security baseline
 * [ ] Configure Windows Update policy
 * [ ] Configure Microsoft Defender policies
 * [ ] Deploy applications
-* [ ] Configure compliance policies
-* [ ] Test policy application
-* [ ] Troubleshoot policy/application failures
 
 ---
 
