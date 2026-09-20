@@ -235,9 +235,9 @@ User access follows a least-privilege model:
 
 ## Phase 10 — Portfolio Documentation
 
-* [ ] Final architecture diagram
-* [ ] Final network diagram
-* [ ] Identity flow diagram
+* [x] Final architecture diagram
+* [x] Final network diagram
+* [x] Identity flow diagram
 * [ ] Add screenshots
 * [ ] Document major configurations
 * [ ] Document troubleshooting scenarios
