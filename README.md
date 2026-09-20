@@ -2,213 +2,275 @@
 
 ## Enterprise Endpoint & Identity Lab
 
-A hands-on enterprise IT lab built with Microsoft Azure and Microsoft 365 to practice identity management, endpoint management, infrastructure, networking, security, and troubleshooting.
+A hands-on enterprise IT lab designed to simulate a hybrid Microsoft environment using Windows Server, Active Directory, Microsoft Entra ID, Microsoft Intune, Microsoft 365, and Windows 11.
 
-The environment is designed as a fictional Wayne Enterprises organization and uses a Batman-inspired naming convention to make the project engaging while demonstrating real-world enterprise IT concepts.
+The environment represents a fictional Wayne Enterprises organization and uses a Batman-inspired naming convention while implementing real-world enterprise identity, endpoint management, networking, security, and troubleshooting concepts.
 
 ---
 
 ## Project Objectives
 
-This project is designed to provide practical experience with:
+This project was built to develop hands-on experience with:
 
-* Microsoft Azure
+* Active Directory Domain Services (AD DS)
 * Microsoft Entra ID
+* Microsoft Entra Connect
 * Microsoft Intune
 * Microsoft 365
 * Exchange Online
-* Active Directory Domain Services
+* Hybrid Microsoft Entra Join
+* Windows 11 endpoint management
+* Group Policy
 * DNS
-* Group Policy
-* Windows 11 deployment
-* Windows endpoint management
-* File and folder permissions
-* PowerShell
-* VPN and remote access
-* Microsoft security controls
-* Troubleshooting and incident response
-
----
-
-## Environment
-
-### Users
-
-| User              | Role                      | Access Level               |
-| ----------------- | ------------------------- | -------------------------- |
-| Bruce Wayne       | Executive / Administrator | Full Administrative Access |
-| Dick Grayson      | Standard Employee         | Standard User              |
-| Alfred Pennyworth | Executive Support         | Standard User              |
-| Barbara Gordon    | Security / Technical User | Standard User              |
-| James Gordon      | External / Remote User    | Limited Access             |
-
-The environment follows a least-privilege approach. Administrative access is intentionally restricted, while James Gordon represents an external user with limited access to internal resources.
-
----
-
-## Planned Infrastructure
-
-### Azure
-
-* Azure Resource Group
-* Azure Virtual Network
-* Windows Server
-* Network security configuration
-* Cost-control measures
-
-### Identity
-
-* Microsoft Entra ID
-* Active Directory
-* Security Groups
-* Organizational Units
-* Group Policy
-* Role-based access
-* Least-privilege administration
-
-### Endpoint Management
-
-* Windows 11
-* Microsoft Intune
-* Device enrollment
-* Configuration policies
+* File services and NTFS permissions
+* Hyper-V virtualization
+* Microsoft Defender
+* Windows Firewall
+* BitLocker
+* Conditional Access
+* Multifactor Authentication (MFA)
+* Windows Update management
 * Application deployment
-* Compliance policies
-* Windows security configuration
-
-### Microsoft 365
-
-* Microsoft 365 user accounts
-* Exchange Online
-* Outlook
-* User licensing
-* Cloud identity integration
-
-### Networking
-
-* Azure Virtual Network
-* DNS
-* Internal network communication
-* VPN
-* Remote access
-* Network troubleshooting
-
----
-
-## Planned Workstations
-
-| User              | Workstation         |
-| ----------------- | ------------------- |
-| Bruce Wayne       | `BAT-WIN11-BRUCE`   |
-| Dick Grayson      | `BAT-WIN11-DICK`    |
-| Alfred Pennyworth | `BAT-WIN11-ALFRED`  |
-| Barbara Gordon    | `BAT-WIN11-BARBARA` |
-
-The Windows 11 workstations will be deployed as local VirtualBox virtual machines. This approach allows the lab to simulate realistic workstation provisioning, clean Windows installations, domain joining, configuration, troubleshooting, and device lifecycle management without requiring four continuously running Azure virtual machines.
-
-James Gordon will initially use an external workstation rather than a dedicated Azure virtual machine. His environment will be used to demonstrate remote access, VPN connectivity, authentication, and least-privilege access.
-
----
-
-## Hybrid Workstation Environment
-
-The lab uses a hybrid architecture to simulate enterprise workstation deployment.
-
-Azure hosts the core infrastructure, including the domain controller, Active Directory, DNS, file services, and Group Policy.
-
-Windows 11 workstation deployments are performed using local VirtualBox virtual machines. This allows the lab to simulate clean workstation provisioning, configuration, domain joining, policy application, application deployment, troubleshooting, and device lifecycle management without requiring four continuously running Azure workstation VMs.
-
-Microsoft 365 provides cloud identity and endpoint management capabilities through Microsoft Entra ID, Exchange Online, and Microsoft Intune.
-
----
-
-## Planned Server
-
-### `BAT-DC01`
-
-The initial Windows Server will combine several roles to keep the lab cost-effective:
-
-* Active Directory Domain Services
-* Domain Controller
-* DNS
-* File Services
-* Group Policy
-
-### Active Directory Domain
-
-`WAYNEENTERPRISES.LOCAL`
+* PowerShell
+* Enterprise troubleshooting
 
 ---
 
 ## Architecture
 
-The lab uses a hybrid architecture consisting of Azure infrastructure, Microsoft 365 cloud services, and a local workstation deployment environment.
+The lab uses a hybrid architecture combining a local Hyper-V environment with Microsoft cloud services.
 
-![Wayne Enterprises IT Lab Architecture](./architecture/Architecture%20Diagram%20V4.png)
+The on-premises environment is hosted on a Windows 11 Pro Hyper-V system named `WATCHTOWER`. A Windows Server 2022 virtual machine named `BAT-DC01` provides Active Directory Domain Services, DNS, Group Policy, and file services.
 
-The architecture diagrams will be expanded and updated as the environment is built.
+Four Windows 11 virtual machines simulate managed enterprise endpoints.
+
+Microsoft Entra Connect synchronizes identities between the on-premises Active Directory environment and Microsoft Entra ID using Password Hash Synchronization.
+
+Windows endpoints are Hybrid Microsoft Entra joined and automatically enrolled into Microsoft Intune for cloud-based endpoint management.
+
+Microsoft 365 provides Exchange Online and additional cloud services.
+
+### Final Architecture & Network Diagram
+
+![Wayne Enterprises IT Lab Architecture](./architecture/Architecture%20Diagram%20V5.png)
+
+The editable draw.io source is also available in the `architecture` directory.
 
 ---
 
-## Project Phases
+## Lab Environment
 
-1. Azure and project foundation
-2. Microsoft Entra ID
-3. Microsoft 365 and Exchange Online
-4. Azure infrastructure
-5. Active Directory and DNS
-6. File services and permissions
-7. Windows workstation deployment
-8. Microsoft Intune
-9. Applications and compliance
-10. Security controls
-11. VPN and remote access
-12. Troubleshooting scenarios
-13. Portfolio documentation
+### Hyper-V Host
+
+**WATCHTOWER**
+
+* Windows 11 Pro
+* Hyper-V
+* Hosts the Windows Server and Windows 11 virtual machines
+* Provides NAT connectivity for the isolated lab network
+
+### Domain Controller
+
+**BAT-DC01**
+
+* Windows Server 2022
+* Active Directory Domain Services
+* DNS
+* Group Policy
+* File Services
+* Microsoft Entra Connect
+
+### Active Directory Domain
+
+`BATCAVE.LOCAL`
+
+---
+
+## Network
+
+The Hyper-V environment uses an isolated internal network with NAT connectivity to external services.
+
+| Component | Configuration |
+| --- | --- |
+| Network | `192.168.10.0/24` |
+| Gateway / NAT | `192.168.10.1` |
+| Domain Controller | `192.168.10.10` |
+| Internal DNS | `192.168.10.10` |
+| DNS Forwarder | `1.1.1.1` |
+
+Domain-joined workstations use `BAT-DC01` for DNS resolution. External DNS requests are forwarded by the domain controller.
+
+---
+
+## Users and Access Model
+
+| User | Role | Access Level |
+| --- | --- | --- |
+| Bruce Wayne | Employee | Standard User |
+| Bruce Wayne Admin (`bwayne.admin`) | Administrative Account | IT / Server Administration |
+| Dick Grayson | Employee | Standard User |
+| Alfred Pennyworth | Executive Support | Standard User |
+| Barbara Gordon | Technical User | IT Administration |
+| James Gordon | Restricted User | Limited / Restricted Access |
+
+The environment follows a least-privilege model. Bruce Wayne uses a standard account for normal activity and a separate privileged account for administrative tasks.
+
+Administrative permissions are delegated through security groups rather than providing unnecessary domain-level privileges.
+
+---
+
+## Windows Endpoints
+
+| User | Workstation |
+| --- | --- |
+| Bruce Wayne | `BAT-WIN11-BRUCE` |
+| Dick Grayson | `BAT-WIN11-DICK` |
+| Alfred Pennyworth | `BAT-WIN11-AL` |
+| Barbara Gordon | `BAT-WIN11-BARB` |
+
+The Windows 11 endpoints are hosted as Hyper-V virtual machines and joined to the `BATCAVE.LOCAL` Active Directory domain.
+
+The endpoints are also Hybrid Microsoft Entra joined and managed through Microsoft Intune.
+
+---
+
+## Identity Architecture
+
+The lab integrates traditional Active Directory identity with Microsoft Entra ID.
+
+Key identity components include:
+
+* Active Directory user and computer accounts
+* Organizational Units (OUs)
+* Security groups
+* Separate standard and administrative accounts
+* Microsoft Entra Connect
+* Password Hash Synchronization
+* Matching on-premises and cloud User Principal Names (UPNs)
+* Hybrid Microsoft Entra joined devices
+* Microsoft Entra multifactor authentication
+* Conditional Access
+
+Microsoft Entra Connect synchronizes the Wayne Enterprises Active Directory identities to Microsoft Entra ID while Active Directory remains responsible for the on-premises domain environment.
+
+---
+
+## Microsoft Intune
+
+Microsoft Intune provides cloud-based management of the Windows 11 endpoints.
+
+Implemented capabilities include:
+
+* Automatic MDM enrollment
+* Device compliance policies
+* Windows configuration policies
+* Windows security baselines
+* Microsoft Defender Antivirus policies
+* Windows Firewall policies
+* BitLocker configuration
+* Windows Update rings
+* Application deployment
+* Company Portal deployment
+
+A dedicated device group is used to target management policies to the Wayne Enterprises Windows endpoints.
+
+---
+
+## Microsoft 365
+
+Microsoft 365 Business Premium provides cloud services for the lab.
+
+Implemented services include:
+
+* Microsoft Entra ID
+* Microsoft Intune
+* Exchange Online
+* Outlook
+* User licensing
+* Cloud identity integration
+* Security groups
+* Multifactor authentication
+* Conditional Access
+
+---
+
+## File Services
+
+`BAT-DC01` provides departmental file shares used to practice SMB sharing, NTFS permissions, security groups, and least-privilege access.
+
+Configured shares include:
+
+* WayneCorp
+* IT
+* Security
+* Executive
+
+Access was validated using multiple user accounts to confirm that authorized users could access the appropriate resources while unauthorized users received access-denied responses.
+
+---
+
+## Security
+
+The lab implements multiple endpoint and identity security controls, including:
+
+* Least-privilege administration
+* Separate administrative accounts
+* Microsoft Entra multifactor authentication
+* Conditional Access
+* Microsoft Defender Antivirus
+* Windows Firewall
+* BitLocker
+* Secure Boot
+* TPM validation
+* Windows security baselines
+* Device compliance policies
+* Password and account-lockout policies
+
+Some virtualization-dependent security settings, including Virtualization-Based Security (VBS) and Hypervisor-Enforced Code Integrity (HVCI), were intentionally left unconfigured where they produced compatibility issues within the nested virtualized lab environment.
 
 ---
 
 ## Troubleshooting
 
-The lab will include intentionally created troubleshooting scenarios to practice enterprise IT support.
+The project includes hands-on troubleshooting exercises covering:
 
-Examples include:
+* DNS resolution
+* Domain authentication
+* File-share permissions
+* Microsoft Intune enrollment
+* Application deployment
+* Windows Update
 
-* DNS failures
-* Domain authentication failures
-* File-share permission issues
-* Intune enrollment problems
-* Application deployment failures
-* Windows Update issues
-* VPN connectivity problems
-* Network connectivity problems
-* User access issues
+Troubleshooting follows a structured methodology:
 
-Each scenario will document:
+1. Identify and reproduce the symptom
+2. Establish the expected state
+3. Determine the affected technical layer
+4. Gather diagnostics
+5. Identify the root cause
+6. Apply the smallest appropriate remediation
+7. Validate functionality
+8. Document the result
 
-1. Symptoms
-2. Investigation
-3. Root cause
-4. Resolution
-5. Validation
-6. Lessons learned
+Detailed troubleshooting methodology and scenarios are available in:
+
+`documentation/troubleshooting-methodology.md`
 
 ---
 
 ## Documentation
 
-Project documentation will include:
+Project documentation includes or will include:
 
-* Architecture diagrams
-* Network diagrams
+* Architecture and network diagrams
+* Identity flow documentation
 * Configuration documentation
 * Screenshots
-* PowerShell scripts
+* PowerShell scripts and administrative commands
 * Troubleshooting scenarios
-* IT support tickets
 * Lessons learned
 
-Sensitive information such as passwords, authentication secrets, private keys, API keys, and other credentials will never be committed to the repository.
+Sensitive information such as passwords, authentication secrets, BitLocker recovery keys, private keys, tokens, and other credentials will not be committed to the repository.
 
 ---
 
@@ -216,9 +278,13 @@ Sensitive information such as passwords, authentication secrets, private keys, A
 
 🟡 **In Progress**
 
-Current phase:
+### Current Phase
 
-**Phase 0 — Project Foundation**
+**Phase 10 — Portfolio Documentation**
+
+Core infrastructure, Active Directory, Microsoft Entra integration, Windows endpoint deployment, Microsoft Intune management, security configuration, and troubleshooting exercises have been completed.
+
+Remaining work focuses on final documentation, screenshots, diagrams, PowerShell examples, repository review, and final project presentation.
 
 ---
 
