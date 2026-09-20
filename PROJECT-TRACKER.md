@@ -223,15 +223,15 @@ User access follows a least-privilege model:
 
 ---
 
-## Phase 9 — Troubleshooting
+## Phase 9 — Troubleshooting - COMPLETE
 
-* [ ] Create DNS failure scenario
-* [ ] Create domain authentication failure
-* [ ] Create file-share permission failure
-* [ ] Create Intune enrollment failure
-* [ ] Create application deployment failure
-* [ ] Create Windows Update issue
-* [ ] Document troubleshooting methodology
+* [x] Create DNS failure scenario
+* [x] Create domain authentication failure
+* [x] Create file-share permission failure
+* [x] Create Intune enrollment failure
+* [x] Create application deployment failure
+* [x] Create Windows Update issue
+* [x] Document troubleshooting methodology
 
 ---
 
