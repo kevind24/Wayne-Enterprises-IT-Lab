@@ -4,7 +4,7 @@
 
 **Overall Status:** 🟡 In Progress
 
-**Current Phase:** Phase 1 — Microsoft Entra ID
+**Current Phase:** Phase 10 — Portfolio Documentation
 
 ---
 
@@ -32,7 +32,7 @@
 * [x] Create security groups
 * [x] Configure Bruce's least-privilege daily-use access
 * [x] Configure standard-user access model
-* [x] Configure James Gordon's limited external access
+* [x] Configure James Gordon as a restricted user
 * [x] Verify user account status
 * [x] Verify group memberships
 * [x] Verify tenant default domain
@@ -54,7 +54,6 @@
 * [x] Test internal mail flow — Bruce → Dick
 * [x] Test internal mail flow — Dick → Bruce
 * [x] Verify Microsoft 365 service health
-* [ ] Document Microsoft 365 / Exchange Online configuration
 
 ---
 
@@ -102,12 +101,12 @@ User access follows a least-privilege model:
 
 | User | Role | Access |
 | --- | --- | --- |
-| Bruce Wayne | Administrator | IT and Server Administration |
+| Bruce Wayne | Employee | Standard User |
+| Bruce Wayne Admin (`bwayne.admin`) | Administrative Account | IT / Server Administration |
 | Dick Grayson | Employee | Standard User |
 | Alfred Pennyworth | Executive Support | Standard User |
 | Barbara Gordon | Technical User | IT Administration |
-| James Gordon | External User | Remote User Access |
-
+| James Gordon | Restricted User | Limited / Restricted Access |
 ---
 
 ### Phase 5 — File Shares & Permissions - COMPLETE
@@ -153,7 +152,6 @@ User access follows a least-privilege model:
 * [x] Establish connectivity to BATCAVE.LOCAL Active Directory
 * [x] Join workstations to BATCAVE.LOCAL
 * [x] Configure baseline workstation settings
-* [ ] Document workstation deployment process
 
 ### Bruce Wayne
 
@@ -197,7 +195,7 @@ User access follows a least-privilege model:
 * [x] Validate Intune device enrollment and check-in
 * [x] Create Windows compliance policy
 * [x] Configure BitLocker compliance requirement
-* [x] Back up BitLocker recovery keys to Microsoft Entra ID
+* [x] Configure BitLocker and Microsoft Entra ID recovery-key backup
 * [x] Test compliance policy application
 * [x] Validate workstation compliance in Microsoft Intune
 * [x] Troubleshoot Hybrid Join, MDM enrollment, and compliance failures
@@ -219,18 +217,18 @@ User access follows a least-privilege model:
 * [x] Configure BitLocker where supported
 * [x] Validate Secure Boot/TPM considerations
 * [x] Configure Conditional Access
-* [x] Document security decisions
+* [x] Define security configuration and implementation decisions
 
 ---
 
 ## Phase 9 — Troubleshooting - COMPLETE
 
-* [x] Create DNS failure scenario
-* [x] Create domain authentication failure
-* [x] Create file-share permission failure
-* [x] Create Intune enrollment failure
-* [x] Create application deployment failure
-* [x] Create Windows Update issue
+* [x] Simulate and troubleshoot DNS resolution failure
+* [x] Create and troubleshoot domain authentication failure
+* [x] Validate file-share permission failure
+* [x] Analyze Intune enrollment troubleshooting path
+* [x] Analyze application deployment troubleshooting path
+* [x] Validate Windows Update troubleshooting workflow
 * [x] Document troubleshooting methodology
 
 ---
