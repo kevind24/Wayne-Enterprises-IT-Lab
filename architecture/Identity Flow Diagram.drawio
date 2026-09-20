@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="GubrTsoj8gh_MTs3r9tw">
+    <mxGraphModel dx="1222" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-7" edge="1" parent="1" source="qSrD9Jn7LYk8sy5iTmYt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="199" as="sourcePoint" />
+            <mxPoint x="448" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Active Directory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BATCAVE.LOCAL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BAT-DC01&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Windows Server 2022&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;User Identities&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Security Groups&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Computer Accounts&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="310" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF3333);" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Microsoft Entra Connect&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;nbsp;Password Hash&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Synchronization&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="449" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-15" edge="1" parent="1" source="qSrD9Jn7LYk8sy5iTmYt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="949" y="268" as="sourcePoint" />
+            <mxPoint x="949" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D9900);" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Microsoft Entra ID&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;nbsp;Cloud Identities&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Security Groups&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Hybrid Device Identities&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;MFA&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Conditional Access&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="310" x="794" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="113" y="330" />
+              <mxPoint x="897.9" y="330" />
+            </Array>
+            <mxPoint x="113" y="388" as="sourcePoint" />
+            <mxPoint x="897.8499999999999" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="794" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF9933);" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Windows 11 Endpoints&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BAT-WIN11-BRUCE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BAT-WIN11-DICK&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BAT-WIN11-AL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;BAT-WIN11-BARB&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Domain Joined&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="310" x="20" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Microsoft Intune&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;MDM Enrollment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Device Compliance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Configuration Policies&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Security Policies&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Application Deployment&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="310" x="794" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="200" as="sourcePoint" />
+            <mxPoint x="793" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Password&lt;div&gt;Hash&lt;/div&gt;&lt;div&gt;Synchronization&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hybrid Microsoft Entra Join / PRT" vertex="1">
+          <mxGeometry height="30" width="120" x="507" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Automatic MDM Enrollment (GPO)" vertex="1">
+          <mxGeometry height="30" width="120" x="509" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Identity &amp;amp; Device Integration" vertex="1">
+          <mxGeometry height="30" width="100" x="956" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="522" as="sourcePoint" />
+            <mxPoint x="330" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p dir=&quot;auto&quot; class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;&lt;strong&gt;Compliance / Configuration / Security / Apps&lt;/strong&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;p dir=&quot;auto&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="440" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="qSrD9Jn7LYk8sy5iTmYt-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#76608A,#FFFF66);" value="&lt;span style=&quot;font-size: 18px; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Wayne Enterprises — Hybrid Identity &amp;amp; Endpoint Management Flow&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="434" x="360" y="-40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
