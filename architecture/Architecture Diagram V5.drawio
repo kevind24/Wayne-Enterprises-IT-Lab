@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_S9KonmBlEU6W-iQaje5">
+    <mxGraphModel dx="2037" dy="2133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mE_s-J6lnf2-KR4L_F9Y-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#498F10,#FFD966);fontColor=#ffffff;strokeColor=default;labelBorderColor=none;align=center;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;WAYNE ENTERPRISES IT LAB&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&amp;nbsp; Hybrid Identity &amp;amp; Endpoint Environment&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="719" x="360" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="240" width="910" x="25" y="-425" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="240" width="910" x="504" y="-425" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="ON-PREMISES LAB&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;WATCHTOWER&lt;/div&gt;&lt;div&gt;WINDOWS 11 PRO HOST&lt;/div&gt;&lt;div&gt;HYPER-V&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="370" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#0050EF,#3399FF);fontColor=#ffffff;strokeColor=#001DBC;" value="BAT-DC01&lt;div&gt;Windows Server 2022&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- AD DS&lt;/div&gt;&lt;div&gt;- DNS&lt;/div&gt;&lt;div&gt;- Group Policy&lt;/div&gt;&lt;div&gt;- FIle Services&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="375" y="-580" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#76608A,#FFD966);fontColor=#ffffff;strokeColor=#432D57;" value="Windows 11 Endpoints&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BAT-WIN11-BRUCE&lt;/div&gt;&lt;div&gt;BAT-WIN11-DICK&lt;/div&gt;&lt;div&gt;BAT-WIN11-AL&lt;/div&gt;&lt;div&gt;BAT-WIN11-BARB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="376" y="-294" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="BATCAVE.LOCAL&lt;div&gt;&lt;pre class=&quot;overflow-visible! px-0!&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-(--code-block-surface) corner-superellipse/1.1 overflow-clip rounded-3xl [--code-block-surface:var(--bg-elevated-secondary)] dark:[--code-block-surface:var(--composer-surface-primary)] lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;AD DS • DNS • &lt;br&gt;GPO • File Services&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;p dir=&quot;auto&quot; class=&quot;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="434" y="-404" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#CC0000);strokeColor=#6F0000;fontColor=#ffffff;" value="BATCAVE Network&lt;div&gt;192.168.10.0/24&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gateway / NAT: 192.168.10.1&amp;nbsp;&lt;/div&gt;&lt;div&gt;DNS / DC: 192.168.10.10&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="375" y="-74" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="MICROSOFT CLOUD SERVICES&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Microsoft Entra ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Cloud identities&lt;/div&gt;&lt;div&gt;- Security Groups&lt;/div&gt;&lt;div&gt;- Hybrid device identities&lt;/div&gt;&lt;div&gt;- MFA&lt;/div&gt;&lt;div&gt;- Conditional Access&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="220" x="849" y="-690" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#0050EF,#3399FF);fontColor=#ffffff;strokeColor=#001DBC;" value="Microsoft Intune&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Device management&lt;/div&gt;&lt;div&gt;- Compliance policies&lt;/div&gt;&lt;div&gt;- Security baselines&lt;/div&gt;&lt;div&gt;- Defender / Firewall&lt;/div&gt;&lt;div&gt;- Bitlocker&lt;/div&gt;&lt;div&gt;- Windows Update&lt;/div&gt;&lt;div&gt;- Application Deployment&lt;/div&gt;" vertex="1">
+          <mxGeometry height="179" width="210" x="854" y="-363" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#76608A,#FFD966);fontColor=#ffffff;strokeColor=#432D57;" value="Microsoft 365 / Exchange Online&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Exchange Online&lt;/div&gt;&lt;div&gt;- Outlook&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Licensed user accounts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="854" y="-142" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.219;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="-565" as="sourcePoint" />
+            <mxPoint x="836.1199999999999" y="-565.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entra Connect / Password Hash Sync" vertex="1">
+          <mxGeometry height="30" width="120" x="659.5" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.219;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="601" y="-243" as="sourcePoint" />
+            <mxPoint x="837" y="-244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Automatic MDM Enrollment&lt;/div&gt;&lt;div&gt;Intune Management&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="630" y="-224" as="geometry" />
+        </mxCell>
+        <mxCell id="UknlrNM11325zOWJ6akH-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="-424" as="sourcePoint" />
+            <mxPoint x="420" y="-298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
