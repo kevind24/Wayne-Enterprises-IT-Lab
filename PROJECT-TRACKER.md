@@ -211,16 +211,16 @@ User access follows a least-privilege model:
 
 ---
 
-## Phase 8 — Security
+## Phase 8 — Security - COMPLETE
 
-* [ ] Configure MFA
-* [ ] Configure least-privilege access
-* [ ] Configure Windows Firewall
-* [ ] Configure Microsoft Defender
-* [ ] Configure BitLocker where supported
-* [ ] Validate Secure Boot/TPM considerations
-* [ ] Configure Conditional Access
-* [ ] Document security decisions
+* [x] Configure MFA
+* [x] Configure least-privilege access
+* [x] Configure Windows Firewall
+* [x] Configure Microsoft Defender
+* [x] Configure BitLocker where supported
+* [x] Validate Secure Boot/TPM considerations
+* [x] Configure Conditional Access
+* [x] Document security decisions
 
 ---
 
