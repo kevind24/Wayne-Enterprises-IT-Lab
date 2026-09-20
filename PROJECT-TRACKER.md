@@ -60,18 +60,17 @@
 
 ## Phase 3 — Core Infrastructure - COMPLETE
 
-* [x] Create/verify Wayne Enterprises resource group
-* [x] Create/verify Batcave VNet
-* [x] Create/verify server subnet
-* [x] Configure Hyper-V host environment
+* [x] Configure Hyper-V host environment on WATCHTOWER
+* [x] Create BATCAVE virtual network and NAT configuration
 * [x] Deploy BAT-DC01 as a local Hyper-V VM
+* [x] Configure static IP addressing for BAT-DC01
 * [x] Configure Windows Server
 * [x] Install Active Directory Domain Services
 * [x] Configure DNS
 * [x] Create BATCAVE.LOCAL domain
-* [x] Configure local workstation lab
+* [x] Configure local workstation lab network
+* [x] Validate workstation connectivity and internet access
 * [x] Document hybrid architecture design
-
 ---
 
 ## Phase 4 — Active Directory - COMPLETE
