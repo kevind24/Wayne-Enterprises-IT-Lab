@@ -186,7 +186,7 @@ User access follows a least-privilege model:
 * [x] Validate domain-user access
 ---
 
-## Phase 7 — Microsoft Intune
+## Phase 7 — Microsoft Intune - COMPLETE
 
 * [x] Configure Microsoft Intune tenant and MDM authority
 * [x] Configure automatic Windows MDM enrollment
@@ -202,12 +202,12 @@ User access follows a least-privilege model:
 * [x] Test compliance policy application
 * [x] Validate workstation compliance in Microsoft Intune
 * [x] Troubleshoot Hybrid Join, MDM enrollment, and compliance failures
-* [ ] Create device groups
-* [ ] Create configuration profiles
-* [ ] Configure Windows security baseline
-* [ ] Configure Windows Update policy
-* [ ] Configure Microsoft Defender policies
-* [ ] Deploy applications
+* [x] Create device groups
+* [x] Create configuration profiles
+* [x] Configure Windows security baseline
+* [x] Configure Windows Update policy
+* [x] Configure Microsoft Defender policies
+* [x] Deploy applications
 
 ---
 
