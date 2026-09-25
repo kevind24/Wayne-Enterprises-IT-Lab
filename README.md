@@ -281,6 +281,7 @@ Documented commands and the Entra Connect delta synchronization script are avail
 Project documentation includes:
 
 * [Architecture and identity flow diagrams](./architecture)
+* [Active Directory design](./documentation/active-directory-design.md)
 * [Major configurations](./documentation/major-configurations.md)
 * [Troubleshooting methodology and scenarios](./documentation/troubleshooting-methodology.md)
 * [Lessons learned](./documentation/lessons-learned.md)
@@ -301,7 +302,7 @@ Sensitive information such as passwords, authentication secrets, BitLocker recov
 
 Core infrastructure, hybrid identity, Windows endpoint deployment, Microsoft Intune management, security configuration, troubleshooting exercises, diagrams, screenshots, configuration documentation, lessons learned, and PowerShell examples have been completed.
 
-The remaining work consists of a sensitive-information review and final repository review before the project is marked complete.
+The sensitive-information review has been completed. The remaining work consists of the final repository review before the project is marked complete.
 
 ---
 
