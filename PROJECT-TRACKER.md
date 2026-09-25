@@ -241,7 +241,7 @@ User access follows a least-privilege model:
 * [x] Add screenshots
 * [x] Document major configurations
 * [x] Document troubleshooting scenarios
-* [ ] Document lessons learned
+* [x] Document lessons learned
 * [ ] Add PowerShell scripts
 * [ ] Update README
 * [ ] Review repository for sensitive information
