@@ -238,9 +238,9 @@ User access follows a least-privilege model:
 * [x] Final architecture diagram
 * [x] Final network diagram
 * [x] Identity flow diagram
-* [ ] Add screenshots
-* [ ] Document major configurations
-* [ ] Document troubleshooting scenarios
+* [x] Add screenshots
+* [x] Document major configurations
+* [x] Document troubleshooting scenarios
 * [ ] Document lessons learned
 * [ ] Add PowerShell scripts
 * [ ] Update README
