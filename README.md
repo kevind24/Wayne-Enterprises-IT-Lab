@@ -256,6 +256,12 @@ Detailed troubleshooting methodology and scenarios are available in:
 
 `documentation/troubleshooting-methodology.md`
 
+## Implementation Screenshots
+
+The following screenshots demonstrate the configuration and validation of the Wayne Enterprises hybrid IT environment.
+
+Additional implementation screenshots are available in the [`screenshots`](./screenshots) directory.
+
 ---
 
 ## Documentation
