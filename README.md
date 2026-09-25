@@ -40,7 +40,7 @@ This project was built to develop hands-on experience with:
 
 The lab uses a hybrid architecture combining a local Hyper-V environment with Microsoft cloud services.
 
-The on-premises environment is hosted on a Windows 11 Pro Hyper-V system named `WATCHTOWER`. A Windows Server 2022 virtual machine named `BAT-DC01` provides Active Directory Domain Services, DNS, Group Policy, and file services.
+The on-premises environment is hosted on a Windows 11 Pro Hyper-V system named `WATCHTOWER`. A Windows Server 2022 virtual machine named `BAT-DC01` provides Active Directory Domain Services, DNS, Group Policy, file services, and Microsoft Entra Connect.
 
 Four Windows 11 virtual machines simulate managed enterprise endpoints.
 
@@ -54,7 +54,11 @@ Microsoft 365 provides Exchange Online and additional cloud services.
 
 ![Wayne Enterprises IT Lab Architecture](./architecture/Architecture%20Diagram%20V5.png)
 
-The editable draw.io source is also available in the `architecture` directory.
+### Hybrid Identity & Endpoint Management Flow
+
+![Wayne Enterprises Identity Flow](./architecture/Identity%20Flow%20Diagram.png)
+
+Editable draw.io source files for both diagrams are available in the [`architecture`](./architecture) directory.
 
 ---
 
@@ -226,7 +230,7 @@ The lab implements multiple endpoint and identity security controls, including:
 * Device compliance policies
 * Password and account-lockout policies
 
-Some virtualization-dependent security settings, including Virtualization-Based Security (VBS) and Hypervisor-Enforced Code Integrity (HVCI), were intentionally left unconfigured where they produced compatibility issues within the nested virtualized lab environment.
+Some virtualization-dependent security settings, including Virtualization-Based Security (VBS) and Hypervisor-Enforced Code Integrity (HVCI), were intentionally left unconfigured where they produced compatibility issues within the virtualized lab environment.
 
 ---
 
@@ -252,45 +256,52 @@ Troubleshooting follows a structured methodology:
 7. Validate functionality
 8. Document the result
 
-Detailed troubleshooting methodology and scenarios are available in:
+Detailed troubleshooting methodology and scenarios are available in [`documentation/troubleshooting-methodology.md`](./documentation/troubleshooting-methodology.md).
 
-`documentation/troubleshooting-methodology.md`
+---
 
 ## Implementation Screenshots
 
-The following screenshots demonstrate the configuration and validation of the Wayne Enterprises hybrid IT environment.
+Implementation screenshots provide evidence of the configuration and validation of the Wayne Enterprises hybrid IT environment.
 
-Additional implementation screenshots are available in the [`screenshots`](./screenshots) directory.
+The complete screenshot set is available in the [`screenshots`](./screenshots) directory.
+
+---
+
+## PowerShell
+
+PowerShell was used for Active Directory administration, endpoint network and DNS validation, and Microsoft Entra Connect synchronization.
+
+Documented commands and the Entra Connect delta synchronization script are available in the [`scripts`](./scripts) directory.
 
 ---
 
 ## Documentation
 
-Project documentation includes or will include:
+Project documentation includes:
 
-* Architecture and network diagrams
-* Identity flow documentation
-* Configuration documentation
-* Screenshots
-* PowerShell scripts and administrative commands
-* Troubleshooting scenarios
-* Lessons learned
+* [Architecture and identity flow diagrams](./architecture)
+* [Major configurations](./documentation/major-configurations.md)
+* [Troubleshooting methodology and scenarios](./documentation/troubleshooting-methodology.md)
+* [Lessons learned](./documentation/lessons-learned.md)
+* [Implementation screenshots](./screenshots)
+* [PowerShell scripts and administrative commands](./scripts)
 
-Sensitive information such as passwords, authentication secrets, BitLocker recovery keys, private keys, tokens, and other credentials will not be committed to the repository.
+Sensitive information such as passwords, authentication secrets, BitLocker recovery keys, private keys, tokens, and other credentials is not intended to be committed to the repository.
 
 ---
 
 ## Project Status
 
-🟡 **In Progress**
+🟡 **Final Review**
 
 ### Current Phase
 
 **Phase 10 — Portfolio Documentation**
 
-Core infrastructure, Active Directory, Microsoft Entra integration, Windows endpoint deployment, Microsoft Intune management, security configuration, and troubleshooting exercises have been completed.
+Core infrastructure, hybrid identity, Windows endpoint deployment, Microsoft Intune management, security configuration, troubleshooting exercises, diagrams, screenshots, configuration documentation, lessons learned, and PowerShell examples have been completed.
 
-Remaining work focuses on final documentation, screenshots, diagrams, PowerShell examples, repository review, and final project presentation.
+The remaining work consists of a sensitive-information review and final repository review before the project is marked complete.
 
 ---
 
