@@ -2,9 +2,9 @@
 
 ## Project Status
 
-**Overall Status:** 🟡 In Progress
+**Overall Status:** 🟢 Complete
 
-**Current Phase:** Phase 10 — Portfolio Documentation
+**Current Phase:** Project Complete
 
 ---
 
@@ -70,6 +70,7 @@
 * [x] Configure local workstation lab network
 * [x] Validate workstation connectivity and internet access
 * [x] Document hybrid architecture design
+
 ---
 
 ## Phase 4 — Active Directory - COMPLETE
@@ -86,7 +87,8 @@
 ### Current Active Directory Structure
 
 Domain:
-BATCAVE.LOCAL
+
+`BATCAVE.LOCAL`
 
 Organizational Units:
 
@@ -96,7 +98,7 @@ Organizational Units:
   - Servers
   - Users
   - Workstations
-    
+
 User access follows a least-privilege model:
 
 | User | Role | Access |
@@ -107,28 +109,29 @@ User access follows a least-privilege model:
 | Alfred Pennyworth | Executive Support | Standard User |
 | Barbara Gordon | Technical User | IT Administration |
 | James Gordon | Restricted User | Limited / Restricted Access |
+
 ---
 
-### Phase 5 — File Shares & Permissions - COMPLETE
+## Phase 5 — File Shares & Permissions - COMPLETE
 
-- [x] Create WayneCorp shared folder
-- [x] Create IT share
-- [x] Create Security share
-- [x] Create Executive share
-- [x] Configure share permissions
-- [x] Configure NTFS permissions
-- [x] Remove unintended `Users — Special` permissions from restricted shares
-- [x] Test Dick Grayson access
-- [x] Test Barbara Gordon access
-- [x] Test Alfred Pennyworth access
-- [x] Validate James Gordon restricted access
-- [x] Confirm SMB access using `net use`
-- [x] Verify read/write/delete permissions
+* [x] Create WayneCorp shared folder
+* [x] Create IT share
+* [x] Create Security share
+* [x] Create Executive share
+* [x] Configure share permissions
+* [x] Configure NTFS permissions
+* [x] Remove unintended `Users — Special` permissions from restricted shares
+* [x] Test Dick Grayson access
+* [x] Test Barbara Gordon access
+* [x] Test Alfred Pennyworth access
+* [x] Validate James Gordon restricted access
+* [x] Confirm SMB access using `net use`
+* [x] Verify read/write/delete permissions
 
-#### Validation Results
+### Validation Results
 
 | User | Share | Result |
-|---|---|---|
+| --- | --- | --- |
 | Dick Grayson | WayneCorp | Modify ✓ |
 | Dick Grayson | IT | Access Denied ✓ |
 | Barbara Gordon | IT | Modify ✓ |
@@ -181,6 +184,7 @@ User access follows a least-privilege model:
 * [x] Configure Windows
 * [x] Join device to BATCAVE.LOCAL
 * [x] Validate domain-user access
+
 ---
 
 ## Phase 7 — Microsoft Intune - COMPLETE
@@ -233,7 +237,7 @@ User access follows a least-privilege model:
 
 ---
 
-## Phase 10 — Portfolio Documentation
+## Phase 10 — Portfolio Documentation - COMPLETE
 
 * [x] Final architecture diagram
 * [x] Final network diagram
@@ -242,7 +246,15 @@ User access follows a least-privilege model:
 * [x] Document major configurations
 * [x] Document troubleshooting scenarios
 * [x] Document lessons learned
-* [ ] Add PowerShell scripts
-* [ ] Update README
-* [ ] Review repository for sensitive information
-* [ ] Final project review
+* [x] Add PowerShell scripts
+* [x] Update README
+* [x] Review repository for sensitive information
+* [x] Final project review
+
+---
+
+## Project Completion
+
+The Wayne Enterprises IT Lab has been fully implemented, validated, documented, and reviewed.
+
+The completed project demonstrates hands-on implementation of Active Directory, DNS, Group Policy, file services, hybrid Microsoft Entra identity, Microsoft Intune endpoint management, Microsoft 365, endpoint security, application deployment, PowerShell administration, and structured enterprise troubleshooting.
